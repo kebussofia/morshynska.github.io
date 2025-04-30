@@ -1,0 +1,23 @@
+#s1 {
+    background-color: var(--bg-nav-1);
+    min-height: 0;
+}
+
+.picto-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.picto {
+    text-align: center;
+    color: var(--bg-color-1);
+}
+
+.picto img {
+    width: 44px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

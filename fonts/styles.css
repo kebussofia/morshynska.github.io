@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'BrisaSans-Regular';
+  src: url(./BrisaSans-Regular.eot);
+  src: url(./BrisaSans-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./BrisaSans-Regular.woff) format('woff'),
+       url(./BrisaSans-Regular.woff2) format('woff2'),
+       url(./BrisaSans-Regular.ttf) format('truetype');
+}

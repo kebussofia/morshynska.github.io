@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моршинська лемонада</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+
 </head>
 <body id="top">
     <!-- Navigation section -->
     <nav>
         <div class="navbar">
             <a href="#top" class="logo">
-                <img src="img/logo.svg" alt="Логотип проєкту">
-                <span>Назва проєкту</span>
+                <img src="img/logo1.png" alt="Логотип проєкту">
+                <!-- <span>Назва проєкту</span> -->
             </a>
            <div class="navigation">
                 <button class="nav-icon">
@@ -26,10 +35,11 @@
                     <span></span>
                 </button>
                 <ul class="level_1">
-                    <li><a class="nav-link" href="#top">Додому</a></li>
-                    <li><a class="nav-link" href="#s1">Пункт 1</a></li>
-                    <li><a class="nav-link" href="#s2">Пункт 2</a></li>
-                    <li><a class="nav-link" href="#s3">Пункт 3</a></li>
+                    <!-- <li><a class="nav-link" href="#top">Товари</a></li> -->
+                    <li><a class="nav-link" href="#s2">Товари</a></li>
+                    <li><a class="nav-link" href="#s3">Відгуки</a></li>
+                    <li><a class="nav-link" href="#s4">Контакти</a></li>
+                    <li><a class="nav-link icon busket" href="#s3"> <img src="img/icon_nav.svg" alt=""> </a></li> 
                 </ul>
            </div>
        </div>
@@ -42,6 +52,23 @@
         <!-- Start of the Header section -->
         <header class="container">
             <div class="inside">
+                <div class="box cols">
+                    <div class="col c1">
+                        <h2>Сплеск освіжаючого фруктового&nbsp;смаку</h2>
+                        <p>Комбо природної мінеральної води Моршинська з заповідних джерел з натуральними соками фруктів.</p>
+                        <a class="button nav-link" href="#s2"> 
+                                Вибрати смак
+                        </a>
+                    </div>
+                    <div class="col c2">
+                        <div class="abs-l img-box hlimit center">
+                            <img src="img/can1.png" alt="">
+                        </div>
+                        <div class="rel-r img-box hlimit center">
+                            <img src="img/can2.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- END of the Header section -->
@@ -49,12 +76,74 @@
         <!-- Section #s1 -->
         <section id="s1" class="container">
             <div class="inside">
+                <div class="picto-box">
+                    <div class="picto">
+                        <img src="img/icon_comp1.svg" alt="">
+                        <span>Без консервантів</span>
+                    </div>
+                    <div class="picto">
+                        <img src="img/icon_comp2.svg" alt="">
+                        <span>Без консервантів</span>
+                    </div>
+                    <div class="picto">
+                        <img src="img/icon_comp3.svg" alt="">
+                        <span>Без консервантів</span>
+                    </div>
+                </div>
             </div>
         </section>
         
         <!-- Section #s2 -->
         <section id="s2" class="container">
             <div class="inside">
+                <div id="swiper-01" class="swiper-container slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item">
+                            <div class="box cols">
+                                <div class="col c1">
+                                    <h2>Сплеск освіжаючого фруктового&nbsp;смаку</h2>
+                                    <p>Комбо природної мінеральної води Моршинська з заповідних джерел з натуральними соками фруктів.</p>
+                                    <a class="button nav-link" href="#s2"> 
+                                            Вибрати смак
+                                    </a>
+                                </div>
+                                <div class="col c2">
+                                    <div class="abs-l img-box hlimit center">
+                                        <img src="img/can1.png" alt="">
+                                    </div>
+                                    <div class="rel-r img-box hlimit center">
+                                        <img src="img/can2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item">
+                            <div class="box cols">
+                                <div class="col c1">
+                                    <h2>fjdjfdkfjdlfjdklfjf&nbsp;смаку</h2>
+                                    <p>Комбо природної мінеральної води Моршинська з заповідних джерел з натуральними соками фруктів.</p>
+                                    <a class="button nav-link" href="#s2"> 
+                                            Вибрати смак
+                                    </a>
+                                </div>
+                                <div class="col c2">
+                                    <div class="abs-l img-box hlimit center">
+                                        <img src="img/can1.png" alt="">
+                                    </div>
+                                    <div class="rel-r img-box hlimit center">
+                                        <img src="img/can2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item">
+                            Slide 3
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </section>
 
@@ -76,6 +165,8 @@
 
     <!-- Scripts in project -->
     <script src="js/nav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-init.js"></script>
 
     <!-- End of Scripts in project -->
 </body>

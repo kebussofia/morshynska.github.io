@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BrisaSans-Regular';
+    src: url(../fonts/BrisaSans-Regular.eot);
+    src: url(../fonts/BrisaSans-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/BrisaSans-Regular.woff) format('woff'),
+         url(../fonts/BrisaSans-Regular.woff2) format('woff2'),
+         url(../fonts/BrisaSans-Regular.ttf) format('truetype');
+  }
+  
+
+@font-face {
+    font-family: 'BrisaSans-Medium';
+    src: url(../fonts/BrisaSans-Medium.eot);
+    src: url(../fonts/BrisaSans-Medium.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/BrisaSans-Medium.woff) format('woff'),
+         url(../fonts/BrisaSans-Medium.woff2) format('woff2'),
+         url(../fonts/BrisaSans-Medium.ttf) format('truetype');
+  }
