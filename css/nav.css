@@ -10,7 +10,7 @@ nav {
 }
 
 nav.topfixed {
-    background: var(--bg-nav-1);
+    background: var(--bg-nav-2);
     position: fixed;
 }
 
@@ -129,11 +129,11 @@ a.busket {
 }
 
 .topfixed .navigation a {
-    color: var(--nav-color-3); /* Колір меню після прокрутки */
+    color: var(--nav-color-1); /* Колір меню після прокрутки */
 }
 
 .topfixed .navigation a:hover {
-    color: var(--nav-color-4); /* Колір меню (hover) після прокрутки */
+    color: var(--bg-nav-1); /* Колір меню (hover) після прокрутки */
 }
 
 .navigation ul {

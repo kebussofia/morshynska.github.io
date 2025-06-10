@@ -1,0 +1,37 @@
+#s4.container {
+    min-height: 0;
+}
+
+#s4 .inside {
+    background-color: var(--bg-color-1);
+    overflow: hidden;
+    max-width: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.foto {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.foto-slide {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slide 15s linear infinite;
+}
+
+.foto-slide img {
+    width: 250px;
+    height: auto;
+    display: inline-block;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

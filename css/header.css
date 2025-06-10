@@ -64,7 +64,7 @@ header h1 {
 .button {
     color: var(--bg-color-1);
     display: inline-block;
-    box-shadow: 5px 5px 1px var(--nav-color-2);
+    box-shadow: 5px 5px 1px var(--color-red-plus);
     background-color: var(--nav-color-2);
     background-color: var(--bg-nav-1);
     border: none;

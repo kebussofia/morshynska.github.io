@@ -1,5 +1,10 @@
+#s2 {
+    min-height: 0;
+}
+
 #s2 .inside {
     max-width: none;
+    padding:0;
 }
 
 #s2 .cols {
@@ -12,14 +17,34 @@
     /* padding: 35px; */
 }
 
-.swiper-wrapper .item {
+#s2 .swiper-wrapper .item {
     height:100%;
     /* min-height: 50vh; */
 }
 
-.swiper-slide, .item {
+#s2 .swiper-slide, #s2 .item {
+    height:auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#s2 .swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     height:auto;
 }
+
+#s2 .swiper-slide.bg1 {
+    background-image: url("../img/bg1.jpg");
+}
+#s2 .swiper-slide.bg2 {
+    background-image: url("../img/bg2.jpg");
+}
+#s2 .swiper-slide.bg3 {
+    background-image: url("../img/bg3.jpg");
+}
+
 
 /* .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 0;
@@ -38,7 +63,7 @@
     align-items: flex-start;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+#swiper-01.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     background-position: 20px center;
     background-size: 30px 30px;
     background-repeat: no-repeat;
@@ -55,32 +80,46 @@
     opacity: 1;
 }
 
-.swiper-pagination-bullet:nth-child(1) {
-    background-image: url("../img/icon_fruit1.svg");
-}
-.swiper-pagination-bullet:nth-child(2) {
+#s2 .swiper-pagination-bullet:nth-child(1) {
     background-image: url("../img/icon_fruit2.svg");
 }
-.swiper-pagination-bullet:nth-child(3) {
+
+#s2 .swiper-pagination-bullet:nth-child(2) {
+    background-image: url("../img/icon_fruit1.svg");
+}
+
+#s2 .swiper-pagination-bullet:nth-child(3) {
     background-image: url("../img/icon_fruit3.svg");
 }
 
-.swiper-pagination-bullet-active:nth-child(1) {
+#s2 #swiper-01 .swiper-pagination-bullet-active:nth-child(1) {
+    background-image: url("../img/icon_fruit2_a.svg");
+    background-color: var(--color-red);
+}
+
+#s2 #swiper-01 .swiper-pagination-bullet-active:nth-child(2) {
     background-image: url("../img/icon_fruit1_a.svg");
+    background-color: var(--color-orange);
+}
+
+#s2 #swiper-01 .swiper-pagination-bullet-active:nth-child(3) {
+    background-image: url("../img/icon_fruit3_a.svg");
+    background-color: var(--color-green);
 }
 
 #s2 .swiper-pagination-bullet-active {
-    background-color: var(--bul-color-1);
+
     opacity: 1;
 }
 
- .swiper-button-next, .swiper-button-prev {
+#s2 .swiper-button-next, #s2 .swiper-button-prev {
     /* color: var(--lnk-color-1); */
     visibility: hidden;
     width: 0;
     height: 0;
     display: none;
 }
+
 
 /*
 

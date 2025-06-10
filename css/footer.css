@@ -1,0 +1,24 @@
+footer.container {
+    background-color: var(--bg-nav-1);
+    min-height: 0;
+}
+
+footer .social {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    align-items: right;
+}
+
+footer .icon {
+    max-height: 40px;
+}
+
+.flogo {
+    max-height: 40px;
+}
+
+footer .inside {
+    display: flex;
+    justify-content: space-between;
+}
